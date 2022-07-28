@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;500;700&display=swap');
+
 body{
-    background-color: aqua;
+    font-family: 'Lexend', sans-serif;
+    color: #050055;
+    background-color: #eafaff;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.firstheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;padding: auto;
+}
+.btn{
+    background: #050055;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1d149e;
 }
